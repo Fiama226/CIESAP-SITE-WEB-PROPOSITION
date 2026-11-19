@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+  <meta name="robots" content="index, follow">
+  <meta name="author" content="Mantraksh Devs">
+  <meta name="theme-color" content="#2563EB">
+  <title>Saaslu – SaaS Admin Dashboard Template for Analytics, Metrics & Revenue</title>
+
+  <meta name="description" content="Saaslu is a modern SaaS admin dashboard template built for analytics, metrics, revenue and retention reports. Clean UI, responsive layout, charts, tables and performance-focused design for SaaS products.">
+  <meta name="keywords" content="saas admin dashboard, saas analytics template, admin panel ui, revenue dashboard, metrics dashboard, retention reports, saas ui kit, admin template">
+
+  <link rel="canonical" href="https://mantrakshdevs.com/saaslu">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Saaslu – SaaS Admin Dashboard Template">
+  <meta property="og:description" content="Build powerful SaaS dashboards with Saaslu. Analytics, metrics, revenue and retention reports in a clean modern UI.">
+  <meta property="og:url" content="https://mantrakshdevs.com/saaslu">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Saaslu – SaaS Admin Dashboard Template">
+  <meta name="twitter:description" content="Modern SaaS admin dashboard template with analytics, metrics and revenue reports.">
+   <!-- Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "SoftwareApplication",
+    "name": "Saaslu",
+    "applicationCategory": "DeveloperApplication",
+    "operatingSystem": "Web",
+    "description": "Saaslu is a SaaS admin dashboard template designed for analytics, metrics, revenue and retention reporting.",
+    "url": "https://saaslu.mantrakshdevs.com/",
+    "creator": {
+      "@type": "Organization",
+      "name": "Mantraksh Devs",
+      "url": "https://mantrakshdevs.com"
+    }
+  }
+  </script>
+  <script type="module" crossorigin src="/assets/index-Bl-R6Mxa.js"></script>
+  <link rel="stylesheet" crossorigin href="/assets/index-BtbDMkic.css">
+</head>
+<body>
+  <div id="root"></div>
+</body>
+</html>

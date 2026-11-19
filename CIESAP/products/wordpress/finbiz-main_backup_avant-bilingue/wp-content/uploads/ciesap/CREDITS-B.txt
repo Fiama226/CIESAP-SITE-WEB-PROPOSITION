@@ -1,0 +1,112 @@
+CREDITS-B : images remplacees (Wikimedia Commons), recadrage cover + redimensionnement.
+Remplacements en place dans wp-content/uploads/2022/10, 2022/11.
+
+Fichiers : 10/ser-1.png (+variantes -WxH), 10/p-9.jpg (+variantes -WxH)
+  Source : https://commons.wikimedia.org/wiki/File:Wiki_Loves_Africa_2026_in_Burkina_Faso_Training_07.jpg
+  Titre : Wiki Loves Africa 2026 in Burkina Faso Training 07.jpg
+  Auteur : Jaaraf
+  Licence : CC BY 4.0
+
+Fichiers : 10/02-2.jpg (+variantes -WxH)
+  Source : https://commons.wikimedia.org/wiki/File:Wiki_Loves_Africa_2026_in_Burkina_Faso_Training_02.jpg
+  Titre : Wiki Loves Africa 2026 in Burkina Faso Training 02.jpg
+  Auteur : Jaaraf
+  Licence : CC BY 4.0
+
+Fichiers : 10/bg-3.png (+variantes -WxH)
+  Source : https://commons.wikimedia.org/wiki/File:Dagaare_Wiki_Community_In-person_training_in_Wa,_Ghana.7.jpg
+  Titre : Dagaare Wiki Community In-person training in Wa, Ghana.7.jpg
+  Auteur : Alhassan Mohammed Awal
+  Licence : CC BY-SA 4.0
+
+Fichiers : 10/manage.png (+variantes -WxH)
+  Source : https://commons.wikimedia.org/wiki/File:Training_women_farmers_on_climate_smart_innovations_in_Nyando,_Kenya_(9417196732).jpg
+  Titre : Training women farmers on climate smart innovations in Nyando, Kenya (9417196732).jpg
+  Auteur : Climate Change, Agriculture and Food Security
+  Licence : CC BY 2.0
+
+Fichiers : 10/tax.png (+variantes -WxH), 10/p-5.jpg (+variantes -WxH)
+  Source : https://commons.wikimedia.org/wiki/File:Supporting_local_entrepreneurs_(7534910000).jpg
+  Titre : Supporting local entrepreneurs (7534910000).jpg
+  Auteur : Oxfam East Africa
+  Licence : CC BY 2.0
+
+Fichiers : 10/market.png (+variantes -WxH)
+  Source : https://commons.wikimedia.org/wiki/File:Women_Farmers.jpg
+  Titre : Women Farmers.jpg
+  Auteur : Photobyamin
+  Licence : CC BY-SA 4.0
+
+Fichiers : 10/service.jpg (+variantes -WxH)
+  Source : https://commons.wikimedia.org/wiki/File:Educating_rural_area_business_men_and_women_on_how_to_upscale_their_business.jpg
+  Titre : Educating rural area business men and women on how to upscale their business.jpg
+  Auteur : Christian Yakubu
+  Licence : CC BY-SA 4.0
+
+Fichiers : 10/sm-01.jpg (+variantes -WxH)
+  Source : https://commons.wikimedia.org/wiki/File:2015_06_20_FGS_Ghana_Workshop-1_(18359107633).jpg
+  Titre : 2015 06 20 FGS Ghana Workshop-1 (18359107633).jpg
+  Auteur : AMISOM Public Information
+  Licence : CC0
+
+Fichiers : 11/about-03.jpg (+variantes -WxH)
+  Source : https://commons.wikimedia.org/wiki/File:Market_Scene_-_Bobo-Dioulasso_-_Burkina_Faso.jpg
+  Titre : Market Scene - Bobo-Dioulasso - Burkina Faso.jpg
+  Auteur : Adam Jones, Ph.D.
+  Licence : CC BY-SA 3.0
+
+Fichiers : 11/about-04.jpg (+variantes -WxH)
+  Source : https://commons.wikimedia.org/wiki/File:Africa_Alumni_TIES_%E2%80%93_Accra_next-steps-for-creating-vibrant-communities-of-women-entrepreneurs_48259352607_o_(53874513720).jpg
+  Titre : Africa Alumni TIES – Accra next-steps-for-creating-vibrant-communities-of-women-entrepreneurs 48259352607 o (53874513720).jpg
+  Auteur : Exchanges Photos
+  Licence : CC0
+
+Fichiers : 10/bg-3.jpg (+variantes -WxH), 10/p-7.jpg (+variantes -WxH)
+  Source : https://commons.wikimedia.org/wiki/File:Rural_Women%27s_Farmers_Association_of_Ghana_prepping_a_field.jpg
+  Titre : Rural Women's Farmers Association of Ghana prepping a field.jpg
+  Auteur : Global Justice Now
+  Licence : CC BY 2.0
+
+Fichiers : 11/bg-5.png (+variantes -WxH)
+  Source : https://commons.wikimedia.org/wiki/File:Dagaare_Wiki_Community_In-person_training_in_Wa,_Ghana.8.jpg
+  Titre : Dagaare Wiki Community In-person training in Wa, Ghana.8.jpg
+  Auteur : Alhassan Mohammed Awal
+  Licence : CC BY-SA 4.0
+
+Fichiers : 11/bg-6.png (+variantes -WxH)
+  Source : https://commons.wikimedia.org/wiki/File:2015_06_20_FGS_Ghana_Workshop-3_(18974378352).jpg
+  Titre : 2015 06 20 FGS Ghana Workshop-3 (18974378352).jpg
+  Auteur : AMISOM Public Information
+  Licence : CC0
+
+Fichiers : 10/01-1.jpg (+variantes -WxH), 10/p-4.jpg (+variantes -WxH)
+  Source : https://commons.wikimedia.org/wiki/File:2015_02_SRCC_Meets_Somali_Business_Community-6_(21719303418).jpg
+  Titre : 2015 02 SRCC Meets Somali Business Community-6 (21719303418).jpg
+  Auteur : AMISOM Public Information
+  Licence : CC0
+
+Fichiers : 10/con-1.png (+variantes -WxH)
+  Source : https://commons.wikimedia.org/wiki/File:2016_06_27_Ghana_Workshop-2_(19205167285).jpg
+  Titre : 2016 06 27 Ghana Workshop-2 (19205167285).jpg
+  Auteur : AMISOM Public Information
+  Licence : CC0
+
+Fichiers : 10/con-2.png (+variantes -WxH)
+  Source : https://commons.wikimedia.org/wiki/File:ASC_Leiden_-_van_Achterberg_Collection_-_1_-_132_-_Un_village_pendant_une_pause_de_bus_en_route_de_Dori_%C3%A0_Ouagadougou,_Burkina_Faso_-_Yako,_Burkina_Faso_-_9-29_novembre_1996.tiff
+  Titre : ASC Leiden - van Achterberg Collection - 1 - 132 - Un village pendant une pause de bus en route de Dori à Ouagadougou, Burkina Faso - Yako, Burkina Faso - 9-29 novembre 1996.tiff
+  Auteur : Angeline A. van Achterberg
+  Licence : CC BY-SA 4.0
+
+Fichiers : 10/con-3.png (+variantes -WxH)
+  Source : https://commons.wikimedia.org/wiki/File:A_farmer_ploughing.jpg
+  Titre : A farmer ploughing.jpg
+  Auteur : Vrinda Khushu
+  Licence : CC BY-SA 4.0
+
+Fichiers : 10/p-8.jpg (+variantes -WxH)
+  Source : https://commons.wikimedia.org/wiki/File:ASC_Leiden_-_van_Achterberg_Collection_-_1_-_134_-_Un_village_pendant_une_pause_de_bus_en_route_de_Dori_%C3%A0_Ouagadougou,_Burkina_Faso_-_Yako,_Burkina_Faso_-_9-29_novembre_1996.tiff
+  Titre : ASC Leiden - van Achterberg Collection - 1 - 134 - Un village pendant une pause de bus en route de Dori à Ouagadougou, Burkina Faso - Yako, Burkina Faso - 9-29 novembre 1996.tiff
+  Auteur : Angeline A. van Achterberg
+  Licence : CC BY-SA 4.0
+
+Autres : 2023/01/logo.webp derive de ciesap/ciesap-logo.png ; 2023/08/Untitled-1-1-1.svg cree (forme decorative #C0272D).

@@ -1,0 +1,115 @@
+.eel--image-img img {
+  display: block;
+  width: 100%;
+}
+
+.eel-all-slider {
+  opacity: 0;
+  transition: opacity 0.8s ease;
+}
+
+.eel-all-slider.swiper-initialized {
+  opacity: 1;
+}
+
+.swiper-navigation .swiper-next,
+.swiper-navigation .swiper-prev {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 1;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  line-height: 35px;
+  border-radius: 2px;
+  border: none;
+}
+
+.swiper-navigation .swiper-next {
+  left: auto;
+  right: 0;
+}
+
+.swiper-navigation svg {
+  height: 1em;
+}
+
+.swiper-button-next:after, .swiper-button-prev:after {
+  font-size: 14px;
+}
+
+.swiper-button-next, .swiper-button-prev, .swiper-rtl .swiper-button-prev, .swiper-rtl .swiper-button-next {
+  height: 32px;
+  border-radius: 3px;
+  outline: none;
+  border: none;
+  width: 32px;
+}
+
+.easy_slider__meta {
+  position: absolute;
+  padding: 40px;
+  bottom: 0;
+  width: 50%;
+  z-index: 2;
+}
+.easy_slider__meta__title {
+  margin-bottom: 15px;
+}
+.easy_slider__meta__button {
+  height: 0;
+  overflow: hidden;
+  transition: height 0.3s ease-in;
+  display: block;
+}
+@media screen and (max-width: 1200px) {
+  .easy_slider__meta {
+    width: 100%;
+  }
+}
+
+.eel--image-img a {
+  overflow: hidden;
+}
+.eel--image-img:hover .easy_slider__meta__button {
+  height: 30px;
+}
+.eel--image-img.zoom {
+  overflow: hidden;
+}
+.eel--image-img.zoom .e-e-grid-img {
+  transform: scale(1);
+  transition: transform 2s cubic-bezier(0.4, 0, 0.2, 1);
+}
+.eel--image-img.zoom .e-e-grid-img:hover {
+  transform: scale(1.1);
+}
+.eel--image-img.jello {
+  overflow: hidden;
+}
+.eel--image-img.jello .e-e-grid-img:hover {
+  animation-name: jello;
+  animation-duration: 1.5s;
+}
+.eel--image-img.grayscale {
+  overflow: hidden;
+}
+.eel--image-img.grayscale .e-e-grid-img {
+  filter: grayscale(0);
+  transition: filter 0.3s ease-in;
+}
+.eel--image-img.grayscale .e-e-grid-img:hover {
+  filter: grayscale(100%);
+}
+
+.image_bottom_gradient {
+  z-index: 1;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background: linear-gradient(0deg, rgb(0, 0, 0) 0%, rgba(0, 0, 0, 0) 100%);
+  height: 50%;
+  border-radius: inherit;
+}/*# sourceMappingURL=image-carousel.css.map */

@@ -1,0 +1,19 @@
+.react-button a {
+  display: inline-block;
+  color: #fff;
+  padding: 12px 30px 12px;
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 0px;
+  background-color: var(--primaryColor);
+  border-radius: 15px;
+}
+.react-button a:hover {
+  background: #ffecec;
+  color: #1F3B57;
+}
+.react-button a svg {
+  width: 20px;
+  position: relative;
+  fill: currentColor;
+}/*# sourceMappingURL=button.css.map */

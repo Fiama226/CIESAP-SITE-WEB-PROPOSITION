@@ -1,0 +1,106 @@
+/* Overlay */
+.easyel-popup-box-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.5);
+    z-index: 9998;
+    display: none;
+}
+
+.easyel-popup-box-overlay-show {
+    display: block;
+}
+
+.easyel-popup-box {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* No default width — the width comes from the "Width" option in Layout Settings ( applied inline on
+       the box ). Leave it empty and the box sizes to the Elementor design inside. */
+    height: auto;
+    max-width: 100vw;
+    /* No background / border-radius / box-shadow here — the Elementor design inside the popup controls
+       its own appearance. */
+    z-index: 9999;
+    padding: 30px;
+    display: none;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+/* Close Button — a standard 36x36 circular button by default ( Close Icon Style settings override it ). */
+.easyel-popup-box-close {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    width: 36px;
+    height: 36px;
+    line-height: 1;
+    background: #fff;
+    color: #000;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s;
+    padding: 0;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+    z-index: 1;
+}
+
+.easyel-popup-box-close:hover,
+.easyel-popup-box-close:focus {
+    background: #f0f0f0;
+    color: #000;
+    outline: none;
+}
+
+.easyel-popup-box-content {
+    text-align: center;
+    height: 100%;
+    min-height: 0;
+}
+
+/* Make the Elementor design fill the popup box width, so the popup size is driven by the box Width
+   ( Layout Settings ) / the Elementor container, and nothing ( e.g. videos ) collapses narrow. */
+.easyel-popup-box-content .elementor,
+.easyel-popup-box-content .e-con,
+.easyel-popup-box-content .elementor-widget.elementor-widget {
+    width: 100%;
+}
+
+/* The Elementor Video widget sizes its iframe/video as 100% inside an aspect-ratio wrapper. Do NOT force
+   a width on it ( that breaks the ratio and blurs / stretches the video ) — the container width + the
+   Layout Settings "Width" control the size, and the ratio stays correct. */
+.easyel-popup-box-content .elementor-widget-video .elementor-wrapper iframe,
+.easyel-popup-box-content .elementor-widget-video .elementor-wrapper video {
+    width: 100%;
+    max-width: 100%;
+}
+
+.easyel-popup-box-show {
+    display: block;
+    animation: popupFadeIn 0.5s both;
+}
+
+.easyel-popup-box-hide {
+    animation: popupFadeOut 0.5s forwards;
+}
+
+
+@keyframes popupFadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+@keyframes popupFadeOut {
+    0% { opacity: 1; }
+    100% { opacity: 0; }
+}

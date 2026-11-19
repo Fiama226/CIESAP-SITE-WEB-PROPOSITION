@@ -164,3 +164,4 @@ cython_debug/
 
 # Local mirror output from test runs
 harsim_ca/
+.playwright-mcp/
