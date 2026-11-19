@@ -1,0 +1,20 @@
+CREDITS-A : images remplacees (Wikimedia Commons). Recadrage/redimensionnement uniquement.
+Toutes les pages sont sous https://commons.wikimedia.org/wiki/File:<nom>
+
+blog-lg-1 (.jpg et toutes variantes) : File:Women_Farmers.jpg - Photobyamin - CC BY-SA 4.0
+blog-lg-2 (toutes variantes) : File:Construction_de_diguettes_par_des_femmes_au_Burkina_Faso.jpg - Hadepte - CC BY-SA 4.0
+blog-lg-3 (toutes variantes) : File:Les_graines_d'aujourd'hui.jpg - Masseni Hema - CC BY-SA 4.0
+blog-lg-4 (toutes variantes) : File:Inorganic_fertilizer.jpg - Yahuzaishat - CC0
+p-1 (toutes variantes) : File:Wikidata_training_in_Accra_09.jpg - Kwameghana (Bright Kwame Ayisi) - CC0
+p-2 (toutes variantes) : File:Burkina_Faso_-_Bobo_Vendors.jpg - auteur non indique sur Commons - Domaine public
+img.jpg, img-291x300.jpg : File:Burkina_Faso_-_Berenices_Restaurant.jpg - auteur non indique sur Commons - Domaine public
+goal.jpg, goal-233x300.jpg : File:Mjasiriamali.jpg - Rasheedhrasheed - CC BY-SA 4.0
+goal-animation.jpg : File:Burkina_Faso_-_Sala_Well.jpg - auteur non indique sur Commons - Domaine public
+about-01.webp : File:Burkina_Faso_-_Tarfila_Farming_Group.jpg - auteur non indique sur Commons - Domaine public
+about-02.webp : File:Wikipedia_Training_at_KNUST.jpg - Baah Thomas - CC BY-SA 4.0
+Picture1.png : File:Supporting_local_entrepreneurs_(7534910000).jpg - Oxfam East Africa - CC BY 2.0
+
+Home hero slider (2022/10, recadre 1920x850, converti en webp, assombri par CSS):
+banner-01.webp : File:Carrefour_de_l'Hotel_de_Ville.jpg - Jonas OUEDRAOGO - CC BY-SA 4.0 - https://commons.wikimedia.org/wiki/File:Carrefour_de_l%27H%C3%B4tel_de_Ville.jpg
+banner-02.webp : File:Markt_Banfora_MS_2255.JPG - Marco Schmidt - CC BY-SA 2.5 - https://commons.wikimedia.org/wiki/File:Markt_Banfora_MS_2255.JPG
+banner-03.webp : File:Another_day_riding.jpg - Francois.marsh - CC BY-SA 4.0 - https://commons.wikimedia.org/wiki/File:Another_day_riding.jpg

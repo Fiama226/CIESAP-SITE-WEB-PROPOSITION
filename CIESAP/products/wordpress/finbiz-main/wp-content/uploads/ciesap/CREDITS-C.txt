@@ -1,0 +1,52 @@
+CREDITS-C : images remplacees (Wikimedia Commons), recadrage cover + redimensionnement, remplacements en place.
+
+Fichiers : 2022/10/p-6.jpg (+variantes -WxH)
+  Source : https://commons.wikimedia.org/wiki/File:Sortie_terrain_18.jpg
+  Titre : Sortie terrain 18.jpg
+  Auteur : Jacoma226
+  Licence : CC BY-SA 4.0
+
+Fichiers : 2022/10/bg.png (+variantes)
+  Source : https://commons.wikimedia.org/wiki/File:Carrefour_de_l%27H%C3%B4tel_de_Ville.jpg
+  Titre : Carrefour de l'Hôtel de Ville.jpg
+  Auteur : Jonas OUEDRAOGO
+  Licence : CC BY-SA 4.0
+
+Fichiers : 2022/10/bg-1.png (+variantes)
+  Source : https://commons.wikimedia.org/wiki/File:Mairie_de_Ouagadougou.jpg
+  Titre : Mairie de Ouagadougou.jpg
+  Auteur : EKokou
+  Licence : CC BY-SA 4.0
+
+Fichiers : 2022/10/bg-2.png (+variantes)
+  Source : https://commons.wikimedia.org/wiki/File:Art-Deco_Colonial-Era_Chamber_of_Commerce_Building_-_Bobo-Dioulasso_-_Burkina_Faso.jpg
+  Titre : Art-Deco Colonial-Era Chamber of Commerce Building - Bobo-Dioulasso - Burkina Faso.jpg
+  Auteur : Adam Jones, Ph.D.
+  Licence : CC BY-SA 3.0
+
+Fichiers : 2022/10/02.webp (+variantes), page A propos
+  Source : https://commons.wikimedia.org/wiki/File:Sortie_terrain_03.jpg
+  Titre : Sortie terrain 03.jpg
+  Auteur : Jacoma226
+  Licence : CC BY-SA 4.0
+
+Fichiers : 2022/11/01.webp, bandeau A propos
+  Source : https://commons.wikimedia.org/wiki/File:Sortie_terrain_11.jpg
+  Titre : Sortie terrain 11.jpg
+  Auteur : Jacoma226
+  Licence : CC BY-SA 4.0
+
+Fichiers : 2023/09/bg-03.jpg (fond page services, recadre avec bande rouge)
+  Source : https://commons.wikimedia.org/wiki/File:Grand_march%C3%A9_de_Koudougou.jpg
+  Titre : Grand marché de Koudougou.jpg
+  Auteur : Julien CHIARETTO
+  Licence : CC BY 3.0
+
+Fichiers : 2022/10/footer-call.webp (niveaux de gris teinte rouge, pied de page)
+  Source : https://commons.wikimedia.org/wiki/File:Sortie_terrain_12.jpg
+  Titre : Sortie terrain 12.jpg
+  Auteur : Jacoma226
+  Licence : CC BY-SA 4.0
+
+Avatars neutres (silhouette #003078 sur gris clair, crees pour ce site, sans droits tiers) : 2022/10/team-1, team-2, team-3, team-4, team-6, team-7, team-8, mona, testi-1, testi-3, test-2 (+variantes) ; modele vectoriel ciesap/avatar-placeholder.svg.
+Contenu fictif a remplacer par le client : noms et fonctions de l'equipe (pages team*, teams/*) et temoignages (testimonial-style-1), logos clients logo-01/02/03.

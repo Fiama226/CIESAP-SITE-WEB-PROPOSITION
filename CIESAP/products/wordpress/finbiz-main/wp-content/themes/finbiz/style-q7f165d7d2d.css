@@ -1,0 +1,1077 @@
+/*
+Theme Name: Finbiz
+Theme URI: https://www.reactheme.com/products/wordpress/finbiz
+Author: ReacThemes
+Author URI: http://www.reactheme.com
+Description: Finbiz - Business Consulting WordPress Theme
+Version: 1.7.6
+License: GNU General Public License v2 or later
+License URI: LICENSE
+Text Domain: finbiz
+Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready, creative, portfolio
+*/
+
+
+/*--------------------------------------------------------------
+
+>>> TABLE OF CONTENTS:
+
+----------------------------------------------------------------
+# Normalize
+# Typography
+# Elements
+# Header
+# Accessibility
+# Alignments
+# Clearings
+# Widgets
+# Content
+	## Posts and pages
+	## Comments
+# Infinite scroll
+# Media
+	## Captions
+	## Galleries
+# Preloader
+
+--------------------------------------------------------------*/
+
+
+/*--------------------------------------------------------------
+
+# Normalize
+
+--------------------------------------------------------------*/
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+main,
+menu,
+nav,
+section,
+summary {
+	display: block;
+}
+
+audio,
+canvas,
+progress,
+video {
+	display: inline-block;
+	vertical-align: baseline;
+}
+
+audio:not([controls]) {
+	display: none;
+	height: 0;
+}
+
+[hidden],
+template {
+	display: none;
+}
+
+a {
+	background-color: transparent;
+	transition: all 0.5s ease 0s;
+}
+
+a:active,
+a:hover {
+	outline: 0;
+}
+
+abbr[title] {
+	border-bottom: 1px dotted;
+}
+
+b,
+strong {
+	font-weight: bold;
+}
+
+dfn {
+	font-style: italic;
+}
+
+h1 {
+
+	margin: 0.67em 0;
+}
+
+mark {
+	background: #ff0;
+	color: #000;
+}
+
+small {
+	font-size: 80%;
+}
+
+sub,
+sup {
+	font-size: 75%;
+	line-height: 0;
+	position: relative;
+	vertical-align: baseline;
+}
+
+sup {
+	top: -0.5em;
+}
+
+sub {
+	bottom: -0.25em;
+}
+
+img {
+	border: 0;
+}
+
+svg:not(:root) {
+	overflow: hidden;
+}
+
+figure {
+	margin: 1em 40px;
+}
+
+hr {
+	box-sizing: content-box;
+	height: 0;
+}
+
+pre {
+	overflow: auto;
+}
+
+code,
+kbd,
+pre,
+samp {
+	font-family: monospace, monospace;
+	font-size: 1em;
+}
+
+.home5-arrow .reactheme-addon-slider .slick-dots li {
+	float: left;
+}
+
+.home5-arrow .reactheme-addon-slider .slick-dots {
+	padding-left: 36px;
+	bottom: -100px;
+}
+
+button {
+	overflow: visible;
+}
+
+button,
+select {
+	text-transform: none;
+}
+
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+	-webkit-appearance: button;
+	cursor: pointer;
+}
+
+button[disabled],
+html input[disabled] {
+	cursor: default;
+}
+
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+	border: 0;
+	padding: 0;
+}
+
+input {
+	line-height: normal;
+}
+
+input[type="password"] {
+	border: 1px solid #ddd;
+	border-radius: 5px 0 0 5px;
+}
+
+.post-password-required input[type="submit"] {
+	padding: 18px 20px 16px !important;
+	border-radius: 6px;
+}
+
+.page .comments-area {
+	padding: 35px 0 0;
+	clear: both;
+}
+
+.page .comments-area .comment-list li.comment {
+	padding: 0;
+	margin: 20px 0 25px;
+	border-radius: 3px;
+	list-style: none;
+}
+
+.page .comment-full {
+	padding-top: 30px;
+}
+
+.page .comments-area .comment-list li.comment #respond {
+	padding-top: 20px;
+}
+
+.wp-block-button__link {
+	color: #fff !important;
+}
+
+
+input[type="checkbox"],
+input[type="radio"] {
+	box-sizing: border-box;
+	padding: 0;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+	height: auto;
+}
+
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+	-webkit-appearance: none;
+}
+
+fieldset {
+	border: 1px solid #c0c0c0;
+	margin: 0 2px;
+	padding: 0.35em 0.625em 0.75em;
+}
+
+legend {
+	border: 0;
+	padding: 0;
+}
+
+textarea {
+	overflow: auto;
+}
+
+optgroup {
+	font-weight: bold;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+label {
+	font-weight: 600;
+}
+
+td,
+th {
+	padding: 5px 10px;
+	border: 1px solid #ccc;
+}
+
+.owl-stage {
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-box;
+	display: box;
+}
+
+
+.comments-area .comment-list li.comment:last-child .comment-full {
+	border-bottom: none;
+	padding-bottom: 0;
+}
+
+.comment-list .pingback,
+.comment-list .trackback {
+	padding: 30px;
+	margin-bottom: 30px;
+	border-radius: 5px;
+	background: #fdfdfd;
+}
+
+/*--------------------------------------------------------------
+
+# Typography
+
+--------------------------------------------------------------*/
+
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	clear: both;
+}
+
+dfn,
+cite,
+em,
+i {
+	font-style: italic;
+}
+
+address {
+	margin: 0 0 1.5em;
+}
+
+pre {
+	background: #eee;
+	font-family: "Courier 10 Pitch", Courier, monospace;
+	font-size: 15px;
+	font-size: 0.9375rem;
+	line-height: 1.6;
+	margin-bottom: 1.6em;
+	max-width: 100%;
+	overflow: auto;
+	padding: 1.6em;
+}
+
+code,
+kbd,
+tt,
+var {
+	font-size: 15px;
+}
+
+abbr,
+acronym {
+	border-bottom: 1px dotted #666;
+	cursor: help;
+}
+
+mark,
+ins {
+	text-decoration: none;
+}
+
+big {
+	font-size: 125%;
+}
+
+/*--------------------------------------------------------------
+
+# Elements
+
+--------------------------------------------------------------*/
+
+html {
+	box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+	/* Inherit box-sizing to make it easier to change the property for components that leverage other behavior; see http://css-tricks.com/inheriting-box-sizing-probably-slightly-better-best-practice/ */
+	box-sizing: inherit;
+}
+
+body {
+	background: #fff;
+	/* Fallback for when there is no custom background color defined. */
+}
+
+blockquote:after,
+q:before,
+q:after {
+	content: "";
+}
+
+blockquote,
+q {
+	quotes: """";
+}
+
+hr {
+	background-color: #ccc;
+	border: 0;
+	height: 1px;
+	margin-bottom: 1.5em;
+}
+
+ul,
+ol,
+ol ol,
+ol ul,
+ul ol,
+ul ul {
+	margin: 0 0 1.5em 3em;
+}
+
+ul {
+	list-style: disc;
+}
+
+ol {
+	list-style: decimal;
+	padding: 0
+}
+
+li>ul,
+li>ol {
+	margin-bottom: 0;
+	margin-left: 1.5em
+}
+
+dt {
+	font-weight: bold;
+	padding-bottom: 5px;
+}
+
+dd {
+	margin: 0 1.5em 1.5em;
+}
+
+img {
+	height: auto;
+	/* Make sure images are scaled correctly. */
+	max-width: 100%;
+	/* Adhere to container width. */
+}
+
+figure {
+	margin: 1em 0;
+	/* Extra wide images within figure tags don't overflow the content area. */
+}
+
+table {
+	margin: 0 0 1.5em;
+	width: 100%;
+}
+
+/*--------------------------------------------------------------
+
+# Header
+
+--------------------------------------------------------------*/
+
+.address .vc_icon_element.vc_icon_element-outer .vc_icon_element-inner {
+	display: block !important;
+	margin: 0 auto;
+}
+
+.full-blog-content .blog-title a,
+.reactheme-breadcrumbs .page-title {
+	word-break: break-word;
+}
+
+
+/* Small menu. */
+
+.menu-toggle,
+.main-navigation.toggled ul {
+	display: block;
+}
+
+@media screen and (min-width: 37.5em) {
+	.menu-toggle {
+		display: none;
+	}
+
+	.main-navigation ul {
+		display: block;
+	}
+}
+
+.site-main .comment-navigation,
+.site-main .posts-navigation,
+.site-main .post-navigation {
+	margin: 0 0 1.5em;
+	overflow: hidden;
+}
+
+.comment-navigation .nav-previous,
+.posts-navigation .nav-previous,
+.post-navigation .nav-previous {
+	float: left;
+	width: 50%;
+}
+
+.comment-navigation .nav-next,
+.posts-navigation .nav-next,
+.post-navigation .nav-next {
+	float: right;
+	text-align: right;
+	width: 50%;
+}
+
+/*--------------------------------------------------------------
+
+# Accessibility
+
+--------------------------------------------------------------*/
+
+/* Text meant only for screen readers. */
+
+.screen-reader-text {
+	clip: rect(1px, 1px, 1px, 1px);
+	position: absolute !important;
+	height: 1px;
+	width: 1px;
+	overflow: hidden;
+	word-wrap: normal !important;
+	/* Many screen reader and browser combinations announce broken words as they would appear visually. */
+}
+
+.screen-reader-text:focus {
+	background-color: #f1f1f1;
+	border-radius: 3px;
+	box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.6);
+	clip: auto !important;
+	color: #21759b;
+	display: block;
+	font-size: 14px;
+	font-size: 0.875rem;
+	font-weight: bold;
+	height: auto;
+	left: 5px;
+	line-height: normal;
+	padding: 15px 23px 14px;
+	text-decoration: none;
+	top: 5px;
+	width: auto;
+	z-index: 100000;
+	/* Above WP toolbar. */
+}
+
+/* Do not show the outline on the skip link target. */
+
+#content[tabindex="-1"]:focus {
+	outline: 0;
+}
+
+#wp-calendar th,
+#wp-calendar td {
+	padding: 5px;
+	text-align: center;
+}
+
+.react-sideabr .widget-title a.rsswidget {
+	color: #0a0a0a;
+}
+
+.react-sideabr .widget_rss ul li:first-child {
+	border-top: 0;
+	padding-top: 0;
+	margin-top: 0;
+}
+
+
+body.home.blog .blog-img img {
+	width: auto !important;
+}
+
+.single .bs-img img {
+	width: auto !important;
+}
+
+/*--------------------------------------------------------------
+
+# Alignments
+
+--------------------------------------------------------------*/
+
+.alignleft {
+	display: inline;
+	float: left;
+	margin-right: 1.5em;
+}
+
+.alignright {
+	display: inline;
+	float: right;
+	margin-left: 1.5em;
+	clear: right;
+}
+
+.aligncenter {
+	clear: both;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+/*--------------------------------------------------------------
+
+# Clearings
+
+--------------------------------------------------------------*/
+
+.clear:before,
+.clear:after,
+.entry-content:before,
+.entry-content:after,
+.comment-content:before,
+.comment-content:after,
+.site-header:before,
+.site-header:after,
+.site-content:before,
+.site-content:after,
+.site-footer:before,
+.site-footer:after {
+	content: "";
+	display: table;
+	table-layout: fixed;
+}
+
+.clear-fix,
+.clear:after,
+.entry-content:after,
+.comment-content:after,
+.site-header:after,
+.site-content:after,
+.site-footer:after {
+	clear: both;
+}
+
+/*--------------------------------------------------------------
+
+# Widgets
+
+--------------------------------------------------------------*/
+
+.widget {
+	margin: 0 0 3em;
+}
+
+/* Make sure select elements fit in widgets. */
+
+.widget select {
+	max-width: 100%;
+	width: 100%;
+	padding: 16px 8px
+}
+
+
+
+/*--------------------------------------------------------------
+
+## Posts and pages
+
+--------------------------------------------------------------*/
+
+.sticky {
+	display: block;
+}
+
+
+.updated:not(.published) {
+	display: none;
+}
+
+
+.archive .page-header {
+	margin-bottom: 35px;
+}
+
+.archive-post {
+	margin-bottom: 10px;
+	overflow: hidden;
+}
+
+.archive-post h3.blog-title {
+	margin-bottom: 7px;
+	font-size: 22px !important;
+
+}
+
+.archive-post .blog-meta {
+	padding-bottom: 15px;
+}
+
+
+.search .entry-header h2 {
+	margin-bottom: 10px !important;
+	font-size: 22px !important
+}
+
+.search .pagination-area {
+	padding-top: 0;
+}
+
+.sticky_form {
+	display: none
+}
+
+
+select {
+	width: 100%;
+}
+
+
+/*--------------------------------------------------------------
+
+## Comments
+
+--------------------------------------------------------------*/
+
+.comment-content a {
+	word-wrap: break-word;
+}
+
+.bypostauthor {
+	display: block;
+}
+
+/*--------------------------------------------------------------
+
+# Infinite scroll
+
+--------------------------------------------------------------*/
+
+/* Globally hidden elements when Infinite Scroll is supported and in use. */
+
+.infinite-scroll .posts-navigation,
+/* Older / Newer Posts Navigation (always hidden) */
+.infinite-scroll.neverending .site-footer {
+	/* Theme Footer (when set to scrolling) */
+	display: none;
+}
+
+/* When Infinite Scroll has reached its end we need to re-display elements that were hidden (via .neverending) before. */
+
+.infinity-end.neverending .site-footer {
+	display: block;
+}
+
+/*--------------------------------------------------------------
+
+# Media
+
+--------------------------------------------------------------*/
+
+.page-content .wp-smiley,
+.entry-content .wp-smiley,
+.comment-content .wp-smiley {
+	border: none;
+	margin-bottom: 0;
+	margin-top: 0;
+	padding: 0;
+}
+
+/* Make sure embeds and iframes fit their containers. */
+
+embed,
+iframe,
+object {
+	max-width: 100%;
+}
+
+/* Default Logo */
+img.default-logo,
+img.footer-logo-light {
+	height: 32px;
+}
+
+/* Make sure logo link wraps around logo image. */
+
+.custom-logo-link {
+	display: inline-block;
+}
+
+/*--------------------------------------------------------------
+
+## Captions
+
+--------------------------------------------------------------*/
+
+.wp-caption {
+	margin-bottom: 1.5em;
+	max-width: 100%;
+}
+
+.wp-caption img[class*="wp-image-"] {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.wp-caption .wp-caption-text {
+	margin: 0.8075em 0;
+	font-size: 13px;
+	font-style: italic;
+}
+
+
+.fowh2 .reactheme-heading .title-inner .title {
+	font-weight: 500 !important;
+}
+
+.mfp-bottom-bar .mfp-title .gallery-title-wrap {
+	display: none;
+}
+
+/*--------------------------------------------------------------
+
+## Galleries
+
+--------------------------------------------------------------*/
+
+.gallery {
+	margin-bottom: 1.5em;
+}
+
+.gallery-item {
+	display: inline-block;
+	text-align: center;
+	vertical-align: top;
+	width: 100%;
+}
+
+.gallery-columns-3 .gallery-item {
+	max-width: 33.33333%;
+}
+
+.gallery-columns-4 .gallery-item {
+	max-width: 25%;
+}
+
+.gallery-columns-5 .gallery-item {
+	max-width: 20%;
+}
+
+.gallery-columns-6 .gallery-item {
+	max-width: 16.66667%;
+}
+
+.gallery-columns-7 .gallery-item {
+	max-width: 14.28571%;
+}
+
+.gallery-columns-8 .gallery-item {
+	max-width: 12.5%;
+}
+
+.gallery-columns-9 .gallery-item {
+	max-width: 11.11111%;
+}
+
+.gallery-caption {
+	display: block;
+}
+
+
+.top50 {
+	position: relative;
+	top: -50px;
+}
+
+.header-logo .logo-area h1.site-title a {
+	line-height: 45px !important
+}
+
+.link-clear {
+	clear: both;
+	display: block;
+	padding-top: 15px;
+}
+
+li.pingback,
+li.trackback {
+	line-height: 30px;
+}
+
+.pingback .comment-body a,
+.trackback .comment-body a {
+	display: block;
+	font-weight: bold;
+	font-size: 18px;
+}
+
+.pingback .comment-body span.edit-link a,
+.trackback .comment-body span.edit-link a {
+	font-weight: normal !important;
+	font-size: 14px !important;
+}
+
+.wp-block-cover,
+.wp-block-cover-image {
+	margin-bottom: 25px;
+}
+
+.wp-block-media-text.alignfull.has-media-on-the-right.is-stacked-on-mobile {
+	margin-bottom: 22px;
+}
+
+.single-content-full .gallery-item .gallery-caption {
+	padding: 8px 15px 0;
+}
+
+.reactheme-blog-details .bs-info.tags a {
+	padding-top: 4px;
+}
+
+.wp-block-gallery {
+	margin-bottom: 26px;
+}
+
+.columns-3.is-cropped.alignfull .blocks-gallery-caption {
+	padding-left: 14px;
+}
+
+#reactheme-header.menugap-minus .logo-area .site-title a {
+	padding-bottom: 5px;
+}
+
+.wp-block-archives.wp-block-archives-dropdown:after {
+	content: "\f107";
+	font-family: FontAwesome;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: inherit;
+	position: absolute;
+	right: 14px;
+	top: 53%;
+	font-size: 20px;
+	color: #171f32;
+	z-index: 0;
+	pointer-events: none;
+	transform: translate(0px, -50%);
+}
+.elementor-widget-rt-portfolio-grid .portfolio-filter button:hover{
+	color: #fff;
+}
+/* === CIESAP : corrections design/UX (hero slider, textes FR plus longs) === */
+sr7-txt[id^="SR7_12_1-"][id$="-6"]{white-space:nowrap!important}
+@media (min-width:1100px){
+	sr7-txt[id^="SR7_12_1-"][id$="-7"]{width:calc(100% - 770px)!important}
+}
+@media (max-width:767px){
+	sr7-bg{opacity:.28!important}
+	sr7-txt[id^="SR7_12_1-"][id$="-5"]{left:20px!important;top:36px!important;width:auto!important;font-size:12px!important;line-height:16px!important}
+	sr7-txt[id^="SR7_12_1-"][id$="-6"]{left:84px!important;top:36px!important;width:calc(100% - 100px)!important;font-size:11px!important;line-height:16px!important}
+	sr7-txt[id^="SR7_12_1-"][id$="-7"]{left:20px!important;top:68px!important;width:calc(100% - 40px)!important;font-size:28px!important;line-height:34px!important}
+	sr7-txt[id^="SR7_12_1-"][id$="-8"]{left:20px!important;top:214px!important;width:calc(100% - 40px)!important;font-size:14px!important;line-height:20px!important}
+	sr7-btn[id^="SR7_12_1-"][id$="-9"]{left:20px!important;top:330px!important}
+}
+/* Français : pas de majuscule à chaque mot (titres du slider, boutons de formulaire, sous-menus) */
+sr7-txt[id^="SR7_12_1-"][id$="-7"],.slide-primary,input[type="submit"],.wpcf7-submit,.submit-btn .wpcf7-submit,.menu a,.sub-menu a,.mean-container a{text-transform:none!important}
+/* Bandeau des logos des pôles : ne pas laisser la forme décorative de la section suivante le recouvrir */
+.elementor-top-section:has(.rs-logo-grid){z-index:3}
+/* Forme décorative qui recouvre le texte de la section "Ce qui nous distingue" */
+img[src*="shape-3.webp"]{display:none!important}
+
+/* ===== Correctifs partagés (lisibilité / responsive) ===== */
+/* 1. Bandeau de titre des pages intérieures : voile sombre sur la photo (inset shadow = au-dessus du fond, sous le texte) */
+.breadcrumbs-single{box-shadow:inset 0 0 0 9999px rgba(0,0,0,.5)}
+.breadcrumbs-single .page-title{text-shadow:0 1px 6px rgba(0,0,0,.45)}
+/* 1b. h1 plus raisonnable pour les titres longs (articles, portfolio) */
+.breadcrumbs-single h1.page-title{font-size:clamp(2rem,4.2vw,2.75rem)!important;line-height:1.2!important}
+/* 2. Vignettes portfolio (style 3) : dégradé sombre derrière la légende pour lire le texte blanc */
+.portfolio-item.content-overlay .portfolio-content{background:linear-gradient(to top,rgba(0,0,0,.78) 0%,rgba(0,0,0,.45) 45%,rgba(0,0,0,0) 100%)}
+.portfolio-item.content-overlay .portfolio-content .p-title,.portfolio-item.content-overlay .portfolio-content .p-title a,.portfolio-item.content-overlay .portfolio-content .p-category a{text-shadow:0 1px 4px rgba(0,0,0,.55)}
+/* 3. Footer mobile : libellé (Siège / IFU / RCCM) empilé au-dessus de sa valeur */
+@media (max-width:480px){
+	.rs-business-hour .rs-business-schedule{display:flex;flex-direction:column;align-items:flex-start;gap:2px 0}
+	.rs-business-hour .rs-business-day,.rs-business-hour .rs-business-time{display:block;margin:0;float:none;width:auto}
+}
+/* 4. blog-grid : catégorie lisible sur fond bleu marine et ligne de méta qui passe à la ligne */
+.reactheme-blog-grid1 .meta-info{flex-wrap:wrap;gap:4px 14px}
+.reactheme-blog-grid1 .blog-meta{flex-wrap:wrap;gap:4px 8px;min-width:0}
+.reactheme-blog-grid1 .meta-info .post-categories a,.meta-info .cat_list a{color:#ffd9da}
+.reactheme-blog-grid1 .meta-info .post-categories a:hover,.meta-info .cat_list a:hover{color:#fff}
+
+/* ==========================================================================
+   Palette marque CIESAP
+   Mesures sur ciesap-logo.png : rouge ~#d80000, vert ~#006a2e, bleu ~#0033a0, marine ~#003078
+   Rôles : rouge = action (CTA, liens, accents d'appel) ; bleu/marine = structure (topbar, titres,
+   fonds sombres, footer) ; vert = accent secondaire (icônes, puces, badges, compteurs, filets, pôle Agro) ;
+   blanc = respiration. Au plus un accent vert par composant.
+   ========================================================================== */
+:root{
+  --ciesap-red:#d80000;      --ciesap-red-dark:#b00000;   --ciesap-red-light:#fdecec;
+  --ciesap-green:#006a2e;    --ciesap-green-dark:#004d21; --ciesap-green-light:#e6f3ec;
+  --ciesap-blue:#0033a0;     --ciesap-blue-dark:#00267a;  --ciesap-blue-light:#e8eefb;
+  --ciesap-navy:#003078;     --ciesap-navy-dark:#0a1f44;  --ciesap-navy-light:#e9eef7;
+}
+/* Structure : topbar marine, fonds sombres marine profond, titres marine */
+.elementor-element-4dc11a7,.elementor-element-4dc11a7.elementor-section{background-color:var(--ciesap-navy)!important}
+.elementor-element-4dc11a7 .elementor-icon-list-icon i{color:#7fd9a3!important}
+.elementor-element-27c2029{background-color:var(--ciesap-navy-dark)!important}
+.elementor-element-031ffef,.reactheme-footer{background-color:var(--ciesap-navy-dark)!important}
+.bg-right-gallery{background-color:var(--ciesap-navy-dark)!important}
+.title-inner .title,.react-heading .title,.services-part .title,.elementor-widget-heading .title,.elementor-image-box-title{color:var(--ciesap-navy)}
+/* Vert : puces, icônes, badges, compteurs */
+.elementor-icon-list-icon i.fa-check-circle,.elementor-icon-list-icon i.fa-check{color:var(--ciesap-green)!important}
+.services-part .services-icon{color:var(--ciesap-green)!important}
+.about-one-thumbnail .experience{background-color:var(--ciesap-green)!important}
+.blog-badge{background-color:var(--ciesap-green)!important;color:#fff!important}
+.rts-counter-list .counter-icon svg rect,.counter-icon svg [fill="#d80000" i]{fill:var(--ciesap-green)!important}
+.services-icon svg [fill="#d80000" i]{fill:var(--ciesap-green)!important}
+.services-icon svg [stroke="#d80000" i]{stroke:var(--ciesap-green)!important}
+.title-inner .title-img{filter:none}
+/* bandeau compteurs : voile marine sur la photo */
+.elementor-element-bec7f71{background-image:linear-gradient(rgba(10,31,68,.88),rgba(0,48,120,.82)),url("../../uploads/2022/10/counter-bg.jpg")!important;background-size:cover!important;background-position:center!important}
+/* Sur fonds marine : libellés en vert clair (contraste >= 7:1) au lieu du rouge */
+.elementor-element-27c2029 .sub-text,.elementor-element-27c2029 a:not(.react_button):not(.rts-btn){color:#7fd9a3}
+.elementor-element-27c2029 h3 a,.elementor-element-27c2029 .title a{color:#fff}
+.elementor-element-27c2029 a:hover{color:#fff}
+.reactheme-footer .sub-text,.elementor-element-031ffef .sub-text{color:#7fd9a3}
+/* Navigation latérale des pôles : page courante en vert */
+.navbar-menu li.current-menu-item>a{color:var(--ciesap-green)!important;font-weight:600}
+
+/* Formulaires : focus bleu, succès vert */
+.wpcf7 input:not([type=submit]):focus,.wpcf7 textarea:focus,.wpcf7 select:focus{border-color:var(--ciesap-blue)!important;outline:2px solid rgba(0,51,160,.18);outline-offset:0}
+.wpcf7 form.sent .wpcf7-response-output{border-color:var(--ciesap-green)!important;color:var(--ciesap-green-dark)}
+/* Survols : liens de pied de page en blanc, filet vert sous titres de colonnes */
+.reactheme-footer .navbar-menu li:hover>a{color:#fff!important}
+.elementor-element-031ffef{background-image:linear-gradient(180deg,#0a1f44,#071733)!important}
+.elementor-element-031ffef .readon-arrow,.elementor-element-031ffef .readon-arrow i,.elementor-element-031ffef .blog-meta a,.elementor-element-031ffef .read-more a{color:#7fd9a3!important}
+
+/* ===== Sélecteur de langue (FR | EN) ===== */
+.ciesap-lang-widget{display:flex;align-items:center;margin:0 6px 0 4px}
+.ciesap-lang{display:inline-flex;align-items:center;gap:0;font-family:inherit;font-size:14px;font-weight:600;letter-spacing:.04em;line-height:1;white-space:nowrap}
+.ciesap-lang__item{display:inline-flex;align-items:center;justify-content:center;min-width:44px;min-height:44px;padding:0 6px;color:var(--ciesap-navy);text-decoration:none;border-radius:8px;box-sizing:border-box;transition:color .2s,background-color .2s}
+.ciesap-lang a.ciesap-lang__item:hover,.ciesap-lang a.ciesap-lang__item:focus-visible{color:var(--ciesap-red);background:var(--ciesap-red-light)}
+.ciesap-lang a.ciesap-lang__item:focus-visible{outline:2px solid var(--ciesap-blue);outline-offset:1px}
+.ciesap-lang__item.is-current{color:var(--ciesap-blue-dark);font-weight:800;cursor:default;position:relative}
+.ciesap-lang__item.is-current:after{content:"";position:absolute;left:12px;right:12px;bottom:9px;height:2px;border-radius:2px;background:var(--ciesap-green)}
+.ciesap-lang__sep{color:var(--ciesap-navy);opacity:.35;font-weight:400}
+@media (max-width:767px){.ciesap-lang-widget{margin:0 2px 0 0}.ciesap-lang{font-size:13px}}
+/* la colonne d'actions de l'en-tete reste sur une seule ligne (recherche, Devis, FR|EN, menu) */
+.elementor-element-dad9e1b>.elementor-widget-wrap{flex-wrap:nowrap;justify-content:flex-end;align-items:center}
+@media (min-width:768px){.ciesap-lang__item{min-width:38px}.ciesap-lang__item.is-current:after{left:9px;right:9px}}
+
+
+/* ===== Nettoyage visuel et accessibilite (partage) ===== */
+/* Preloader : ne jamais bloquer la page si une ressource externe est lente (masque automatique apres 2,5 s) */
+#finbiz-load{animation:ciesap-preloader-out .3s ease 2.5s forwards}
+@keyframes ciesap-preloader-out{to{opacity:0;visibility:hidden;pointer-events:none}}
+@media (prefers-reduced-motion:reduce){#finbiz-load{animation-duration:.01s;animation-delay:1s}#finbiz-load .preloader span{animation:none}}
+/* Pas de halo decoratif autour des boutons fleches / compteurs */
+.swiper-button-next,.swiper-button-prev,.count-text,.rt-arrow-left,.rt-arrow-right{box-shadow:none!important}
+/* Focus clavier visible partout */
+a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible,textarea:focus-visible,[tabindex]:focus-visible,.progress-wrap:focus-visible{outline:2px solid var(--ciesap-blue);outline-offset:2px}
+/* Cibles tactiles >= 44 px sur mobile */
+@media (max-width:991px){
+	.progress-wrap{width:44px;height:44px}
+	.reactheme-menu-toggle,.mean-container .meanmenu-reveal,.rs-menu-toggle,.nav-link-container{min-width:44px;min-height:44px}
+	.footer-menu a,.reactheme-footer .menu a,.reactheme-footer .elementor-icon-list-item a{display:inline-block;padding-top:6px;padding-bottom:6px}
+}
+/* Hero : retrait des formes decoratives flottantes (disque rose, anneau pointille, anneau rouge) */
+sr7-loop:has(>sr7-img[id^="SR7_12_1-"]){display:none!important}
+/* Accordeon "frise" : plus de ligne pointillee rouge ni de pastilles, liste simple avec filet neutre */
+.rts-accordion.style1 .accordion-item{padding-left:0!important;padding-bottom:16px;border-bottom:1px solid #e3e6ea!important}
+.rts-accordion.style1 .accordion-item:last-child{border-bottom:0!important}
+.rts-accordion.style1 .accordion-item:after,
+.rts-accordion.style1 .accordion-item .accordion-header button:before,
+.rts-accordion.style1 .accordion-item .accordion-header button[aria-expanded=true]:before{display:none!important;content:none!important}
+.rts-accordion.style1 .accordion-item .accordion-header button{padding:6px 0;min-height:44px;width:100%;text-align:left}

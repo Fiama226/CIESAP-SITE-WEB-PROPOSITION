@@ -1,0 +1,23 @@
+/*Logo CSS-----------------
+--------------------------*/
+.rt-grid-figure .logo-img {
+  text-align: center;
+}
+.rt-grid-figure .logo-img a {
+  transition: all 0.5s;
+}
+.rt-grid-figure .logo-img img {
+  margin: 0 auto;
+  transition: all 0.5s;
+  box-shadow: 0px 10px 30px rgba(33, 5, 5, 0.05);
+  border-radius: 15px;
+}
+.rt-grid-figure .logo-img:hover img {
+  opacity: 1;
+}
+.rt-grid-figure .logo-img:hover a.back {
+  display: block;
+}
+.rt-grid-figure .logo-img:hover a.back-exists {
+  display: none;
+}/*# sourceMappingURL=logo.css.map */

@@ -1,0 +1,488 @@
+.border-left-20 .react-addon-services.services-style2 .services-part .services-icon {
+  margin-right: 20px;
+}
+
+.react-addon-services.gray_yes:hover img {
+  filter: grayscale(100);
+}
+.react-addon-services.services-style3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.react-addon-services.services-style3 .services-part {
+  display: block;
+}
+.react-addon-services.services-style3 .services-part .service--top .icon-inner {
+  border-radius: 50%;
+  width: 192px;
+  height: 192px;
+  border: 2px dashed var(--primaryColor);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  margin-bottom: 33px;
+  transition: 0.3s;
+  position: relative;
+}
+.react-addon-services.services-style3 .services-part .service--top .icon-inner .number {
+  position: absolute;
+  right: 20px;
+  top: 0;
+  background: var(--primaryColor);
+  color: #fff;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  color: #fff;
+  transform: scale(0);
+  transition: 0.3s;
+}
+.react-addon-services.services-style3 .services-part .service--top .services-icon {
+  margin-right: 22px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+.react-addon-services.services-style3 .services-part .service--top .services-title {
+  margin-bottom: 7px;
+}
+.react-addon-services.services-style3 .services-part .service--top .services-title .title {
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 1.5;
+  color: #333333;
+  letter-spacing: -0.3;
+  margin-bottom: 0;
+}
+.react-addon-services.services-style3 .services-part .service--top .services-title .title:hover {
+  color: var(--primaryColor);
+}
+.react-addon-services.services-style3 .services-part .services--bottom {
+  display: block;
+}
+.react-addon-services.services-style3 .services-part .services--bottom .services-txt {
+  font-size: 16px;
+  font-weight: 400;
+  color: #777777;
+  line-height: 28px;
+}
+.react-addon-services.services-style3 .services-part .services--bottom .services-btn {
+  font-weight: 700;
+  font-size: 16px;
+}
+.react-addon-services.services-style3:hover .services-part .service--top .icon-inner .number {
+  transform: scale(1.1);
+}
+.react-addon-services.services-style3:hover .services-part .service--top .icon-inner {
+  border-color: var(--primaryColor);
+}
+.react-addon-services.services-style4 {
+  position: relative;
+}
+.react-addon-services.services-style4 .services-part {
+  box-shadow: 0px 13px 40px rgba(24, 16, 16, 0.0392156863);
+  position: relative;
+  border-radius: 15px;
+}
+.react-addon-services.services-style4 .services-part .services-icon {
+  position: relative;
+  padding: 0 !important;
+  overflow: hidden;
+}
+.react-addon-services.services-style4 .services-part .services-icon img {
+  width: 100%;
+  border-radius: 15px 15px 0 0;
+  transition: 0.3s;
+}
+.react-addon-services.services-style4 .services-part .services-icon .number {
+  position: absolute;
+  right: 0;
+  top: 0;
+  font-size: 18px;
+  background: #fff;
+  border-radius: 0 15px 0 15px;
+  height: 50px;
+  width: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--primaryColor);
+  font-weight: 700;
+}
+.react-addon-services.services-style4 .services-part .services-text {
+  z-index: 5;
+  padding: 40px;
+  background: #fff;
+  border-radius: 0 0 15px 15px;
+  position: absolute;
+  bottom: -50%;
+}
+.react-addon-services.services-style4 .services-part .services-text .hidden-area {
+  max-height: 84px;
+  overflow: hidden;
+  transition: 0.5s ease-in-out;
+}
+.react-addon-services.services-style4 .services-part .services-btn-part i {
+  margin-left: 3px;
+  transition: 0.5s ease-in-out;
+}
+.react-addon-services.services-style4 .services-part .services-btn-part .services-btn:hover i {
+  margin-left: 7px;
+}
+.react-addon-services.services-style4 .services-part:hover .services-text .hidden-area {
+  max-height: 155px;
+  overflow: hidden;
+  transition: 0.5s ease-in-out;
+}
+.react-addon-services.services-style5 .services-part {
+  background: #f7f7f7;
+  border-radius: 15px;
+  padding: 40px;
+}
+.react-addon-services.services-style5 .services-part .services-icon {
+  overflow: hidden;
+  border-radius: 15px;
+  max-width: -moz-max-content;
+  max-width: max-content;
+}
+.react-addon-services.services-style5 .services-part:hover img {
+  transform: scale(1.2);
+  border-radius: 15px;
+  overflow: hidden;
+}
+.react-addon-services.services-style5 .services-part .services-text {
+  padding-top: 20px;
+}
+.react-addon-services.services-style5 .services-btn-part .services-btn {
+  background: var(--primaryColor);
+  color: #fff;
+  padding: 12px 30px;
+  border-radius: 0 0 15px 15px;
+  margin-left: 35px;
+  display: inline-block;
+  font-weight: 700;
+}
+
+.react-addon-services.services-style1 {
+  position: relative;
+}
+.react-addon-services.services-style1 .services-btn-part a i {
+  margin-left: 0;
+  opacity: 0;
+  transition: 0.3s;
+}
+.react-addon-services.services-style1:hover i {
+  opacity: 1 !important;
+  margin-left: 7px !important;
+  font-weight: bold;
+}
+.react-addon-services.services-style1 .services-title h3 {
+  margin-bottom: 4px !important;
+}
+.react-addon-services .services-part {
+  position: relative;
+}
+.react-addon-services .services-part .services-icon {
+  padding: 5px;
+  font-size: 50px;
+  line-height: 50px;
+  color: var(--primaryColor);
+  transition: all ease 0.3s;
+}
+.react-addon-services .services-part .services-icon i {
+  transition: all ease 0.3s;
+}
+.react-addon-services .services-part .services-icon i:before {
+  margin: 0;
+}
+.react-addon-services .services-part .services-icon:hover {
+  color: #040404;
+}
+.react-addon-services .services-part .services-icon:after {
+  content: "";
+  position: absolute;
+  z-index: 0;
+  left: 50%;
+  top: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  display: block;
+  width: 90px;
+  height: 90px;
+  background: var(--primaryColor);
+  border-radius: 50%;
+  animation: pulse-border 1500ms ease-out infinite;
+  opacity: 0;
+  transition: all 0.3s ease 0s;
+  visibility: hidden;
+}
+.react-addon-services .services-part .services-text {
+  padding: 10px 0 0;
+  position: relative;
+  font-family: "DM Sans", sans-serif;
+}
+.react-addon-services .services-part .services-text .services-title {
+  position: relative;
+}
+.react-addon-services .services-part .services-text .services-title .title {
+  font-size: 24px;
+  margin: 0 0 10px;
+  color: #1F3B57;
+}
+.react-addon-services .services-part .services-text .services-title .title a {
+  color: #1F3B57;
+}
+.react-addon-services .services-part .services-text .services-title .title a:hover {
+  color: #ffecec;
+}
+.react-addon-services .services-part .services-text .services-txt {
+  color: #5D666F;
+  margin: 0;
+  transition: 0.4s;
+}
+.react-addon-services .services-part .services-text .services-btn-part {
+  margin: 10px 0 0;
+}
+.react-addon-services .services-part .services-text .services-btn-part .services-btn {
+  position: relative;
+  display: inline-block;
+  color: #040404;
+  transition: all ease 0.3s;
+}
+.react-addon-services .services-part .services-text .services-btn-part .services-btn:hover {
+  color: var(--primaryColor);
+}
+.react-addon-services .services-part .services-text .services-btn-part .services-btn:hover span {
+  color: var(--primaryColor);
+}
+.react-addon-services .services-part .services-text .services-btn-part .services-btn.icon-after span {
+  float: left;
+}
+.react-addon-services .services-part .services-text .services-btn-part .services-btn.icon-before span {
+  float: right;
+}
+.react-addon-services .services-part .services-text .services-btn-part .services-btn.icon-before i {
+  margin-right: 10px;
+}
+.react-addon-services .services-part img {
+  transition: 0.4s;
+}
+.react-addon-services.services-style2 .services-part {
+  background: 0 0;
+  text-align: left;
+  position: relative;
+  z-index: 1;
+  display: flex;
+}
+.react-addon-services.services-style2 .services-part .services-icon {
+  margin-right: 37px;
+}
+.react-addon-services.services-style2 .services-part .services-icon img {
+  transition: all 0.3s ease 0s;
+  max-width: 65px;
+}
+.react-addon-services.services-style2 .services-part .services-icon svg, .react-addon-services.services-style2 .services-part .services-icon svg path {
+  fill: var(--primaryColor);
+}
+.react-addon-services.services-style2 .services-part:hover .services-icon img {
+  transform: translateY(-7px);
+  -webkit-transform: translateY(-7px);
+  -moz-transform: translateY(-7px);
+  -ms-transform: translateY(-7px);
+  -o-transform: translateY(-7px);
+}
+.react-addon-services.services-style2 .services-part a.services-btn {
+  transition: 0.3s;
+}
+.react-addon-services.services-style2 .services-part a.services-btn i {
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  background: #fff;
+  border-radius: 50%;
+  margin-right: 12px;
+  color: #1F3B57;
+  font-size: 14px;
+  transition: 0.3s;
+  box-shadow: 0px 9px 18px rgba(24, 16, 16, 0.05);
+}
+.react-addon-services.services-style2 .services-part a.services-btn:hover i {
+  background: var(--primaryColor);
+  color: #fff;
+}
+.react-addon-services.services-style6 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.react-addon-services.services-style6 .services-part {
+  display: block;
+}
+.react-addon-services.services-style6 .services-part .service--top .icon-inner {
+  height: 110px;
+  width: 110px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  background: #FFFFFF;
+  margin-bottom: 70px;
+  position: relative;
+}
+.react-addon-services.services-style6 .services-part .service--top .icon-inner::before {
+  content: "";
+  width: 19px;
+  height: 19px;
+  position: absolute;
+  left: 50%;
+  bottom: -10px;
+  display: block;
+  z-index: 1;
+  border-radius: 30px;
+  background: transparent;
+  border: 1px solid #eee;
+  padding: 10px;
+  transform: translate(-50%, 3px);
+}
+.react-addon-services.services-style6 .services-part .service--top .icon-inner .mid-arrows {
+  display: block;
+  width: 9px;
+  height: 9px;
+  background: var(--primaryColor);
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  z-index: 1;
+  border-radius: 30px;
+  transform: translate(-50%, 6px);
+}
+.react-addon-services.services-style6 .services-part .service--top .services-icon {
+  margin-right: 22px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+.react-addon-services.services-style6 .services-part .services--bottom {
+  padding: 54px 33px 50px 33px;
+  text-align: center;
+  border-radius: 20px;
+  border: 1px solid #EFEEEE;
+  background: #FFF;
+  box-shadow: 0px 19px 51px 0px rgba(14, 18, 30, 0.06);
+  position: relative;
+  display: block;
+}
+.react-addon-services.services-style6 .services-part .services--bottom .services-title {
+  margin-bottom: 13px;
+}
+.react-addon-services.services-style6 .services-part .services--bottom .services-title .title {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 1.5;
+  color: #333333;
+  letter-spacing: -0.3;
+  margin-bottom: 0;
+}
+.react-addon-services.services-style6 .services-part .services--bottom .number-box {
+  position: absolute;
+  height: 50px;
+  width: 50px;
+  background: #fff;
+  border: 1px solid #EFEEEE;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  left: 50%;
+  transform: translateX(-50%);
+  top: -30px;
+  z-index: 1;
+  color: var(--primaryColor);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.react-addon-services.services-style6 .services-part .services--bottom .number-box .number {
+  background: rgba(229, 125, 97, 0.1019607843);
+  width: 32px;
+  height: 32px;
+  line-height: 32px;
+  text-align: center;
+  border-radius: 30px;
+  transition: 0.3s;
+}
+.react-addon-services.services-style6 .services-part .services--bottom .services-txt {
+  font-size: 16px;
+  font-weight: 400;
+  color: #777777;
+  line-height: 28px;
+  margin: 0;
+}
+.react-addon-services.services-style6 .services-part .services--bottom .services-btn {
+  font-weight: 700;
+  font-size: 16px;
+}
+.react-addon-services.services-style6 .services-part:hover .number-box .number {
+  background: var(--primaryColor);
+  color: #fff;
+}
+.react-addon-services.services-style7 .services-part .services-icon {
+  color: var(--primaryColor);
+  margin-bottom: 20px;
+}
+.react-addon-services.services-style7 .services-part .services-icon svg,
+.react-addon-services.services-style7 .services-part .services-icon svg * {
+  fill: currentColor;
+}
+.react-addon-services.services-style7 .services-part .services-title .title,
+.react-addon-services.services-style7 .services-part .services-title .title:hover {
+  color: #fff;
+  line-height: 1.4;
+  margin-bottom: 20px;
+}
+.react-addon-services.services-style7 .services-part p {
+  line-height: 24px;
+}
+.react-addon-services.services-style7 .services-part .service-feature-item {
+  margin-top: 24px;
+  margin-bottom: 30px;
+}
+.react-addon-services.services-style7 .services-part .service-feature-item .service-single-feature-item {
+  display: flex;
+  color: var(--primaryColor);
+  margin-bottom: 3px;
+}
+.react-addon-services.services-style7 .services-part .service-feature-item .feature-text {
+  margin-left: 15px;
+}
+.react-addon-services.services-style7 .services-part .services-btn-part .services-btn {
+  color: #fff;
+  border: 1px solid rgba(212, 239, 88, 0.1019607843);
+  padding: 8px 16px;
+  border-radius: 6px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.react-addon-services.services-style7 .services-part .services-btn-part .services-btn svg {
+  fill: currentColor;
+}
+.react-addon-services.services-style7 .services-part .services-btn-part .services-btn:hover {
+  color: var(--secondaryColor);
+  background: var(--primaryColor);
+  border-color: var(--primaryColor);
+}
+.react-addon-services.services-style7 .services-part .services-btn-part .services-btn:hover .btn_text {
+  color: var(--secondaryColor);
+}/*# sourceMappingURL=services-grid.css.map */

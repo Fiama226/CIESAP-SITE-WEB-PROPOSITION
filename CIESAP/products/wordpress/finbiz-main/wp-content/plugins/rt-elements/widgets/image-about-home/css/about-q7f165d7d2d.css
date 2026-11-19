@@ -1,0 +1,47 @@
+.about-one-thumbnail {
+  display: flex;
+  justify-content: end;
+  position: relative;
+}
+.about-one-thumbnail .small-img {
+  position: absolute;
+  left: 0%;
+  top: 7%;
+  animation: jump-1 10s linear infinite;
+}
+.about-one-thumbnail .experience {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 25px 32px;
+  background: var(--primaryColor);
+  border-radius: 15px;
+  bottom: 7%;
+  left: 1%;
+  animation: jump-2 6s linear infinite;
+  width: 310px;
+}
+.about-one-thumbnail .experience .single {
+  width: 50%;
+}
+.about-one-thumbnail .experience .single .title {
+  color: #fff;
+  margin-bottom: 0;
+  font-family: "Red Hat Display", sans-serif;
+}
+.about-one-thumbnail .experience .single.left p {
+  font-size: 22px;
+  color: #fff;
+  font-family: "Red Hat Display", sans-serif;
+  font-weight: 700;
+  margin-top: -8px;
+  margin-bottom: 0;
+}
+.about-one-thumbnail .experience .single.right p {
+  color: #fff;
+  line-height: 24px;
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 0;
+}/*# sourceMappingURL=about.css.map */

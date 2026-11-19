@@ -1,0 +1,54 @@
+.banner-marketing {
+  max-width: 100%;
+  position: relative;
+  z-index: 2;
+  text-align: left;
+}
+.banner-marketing .banner-title {
+  position: relative;
+  padding-left: 30px;
+}
+.banner-marketing .banner-title:before {
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 6px;
+  background: var(--primaryColor);
+  left: 0;
+}
+.banner-marketing .banner-title .subtitle-banner {
+  color: var(--primaryColor);
+  letter-spacing: 1px;
+}
+.banner-marketing .banner-title .title {
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 70px;
+  text-transform: none;
+  color: #1F3B57;
+  margin-bottom: 40px;
+  margin-top: 25px;
+}
+.banner-marketing .banner-title .title .changebox {
+  margin: 0 5px -8px 0;
+  color: var(--primaryColor);
+  overflow: hidden;
+  transition: 0.8s;
+  white-space: nowrap;
+  display: inline-block;
+  align-items: center;
+  text-align: center;
+  position: relative;
+  line-height: 62px;
+  bottom: -4px;
+}
+@media (max-width: 576px) {
+  .banner-marketing .banner-title .title .changebox {
+    bottom: -7px;
+  }
+}
+@media (max-width: 450px) {
+  .banner-marketing .banner-title .title .changebox {
+    bottom: -12px;
+  }
+}/*# sourceMappingURL=animated-heading.css.map */
